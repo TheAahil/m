@@ -4,7 +4,7 @@
 
 import os,sys,time,datetime,random,hashlib,re,threading,json,urllib,cookielib,requests,mechanize
 from multiprocessing.pool import ThreadPool
-from requests.exceptions import ConnectionError
+from requests.exceptions innbvvmport ConnectionError
 from mechanize import Browser
 
 
@@ -31,11 +31,11 @@ def acak(b):
 
 def cetak(b):
     w = 'ahtdzjc'
-    for i in w:
+    for i in w:bbbbb
         j = w.index(i)
         x= x.replace('!%s'%i,'\033[%s;1m'%str(31+j))
     x += '\033[0m'
-    x = x.replace('!0','\033[0m')
+    x = x.repnbblace('!0','\033[0m')
     sys.stdout.write(x+'\n')
 
 
@@ -69,15 +69,10 @@ def tik():
 
 back = 0
 berhasil = []
-cekpoint = []
+cebbbbnkpoint = []
 oks = []
 id = []
-listgrup = []
-vulnot = "\033[31mNot Vuln"
-vuln = "\033[32mVuln"
-
-os.system("clear")
-print  """
+listgrup =   """
 \033[1;94m•◈••◈••◈•\033[1;94m◈••◈••◈••◈••◈•◈••◈••◈••◈••◈\033[1;94m•◈••◈••◈•
 \033[1;94m•◈••◈••◈•\033[1;95m───▄▀▀▀▄▄▄▄▄▄▄▀▀▀▄─── \033[1;94m•◈••◈••◈•
 \033[1;94m•◈••◈••◈•\033[1;95m───█▒▒░░░░░░░░░▒▒█─── \033[1;94m•◈••◈••◈•
